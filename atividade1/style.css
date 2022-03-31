@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #2b2b2b;
+    width: 100%;
+    padding: 1% 0%;
+}
+
+.titulo-header{
+    margin-left: 5%;
+    color: #61f8f8;
+}
+
+.titulo-main{
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.formulario-horasTrab{
+    background-color: #61f8f8;
+    width: 40%;
+    margin: auto;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+.t-form{
+    text-align: left;
+    margin-left: 5%;
+    height: 15px;
+}
+
+.campo:focus, input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.campo{
+    border: none;
+    margin-left: 5%;
+    border-radius: 5px;
+    width: 35%;
+    padding: 1.5% 0.5%;
+}
+
+.btn-form{
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color: #2b2b2b;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 1% 2.2%;
+}
+
+.selecao{
+    margin-left: 5%;
+    background-color: #2b2b2b;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 1% 1.9%;
+}
+
+.relogio{
+    width: 30%;
+    float: right;
+    position: relative;
+    top: -170px;
+    left: -50px;
+}

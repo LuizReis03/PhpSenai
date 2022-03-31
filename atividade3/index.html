@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Aula 05</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-header">Hipotheticus</h1>
+    </header>
+
+    <main>
+        <h1 class="titulo-main">Cadastre-se na nossa academia</h1>
+        <form class="formulario-horasTrab" method="post" action="index.php">
+
+            <p class="t-form">Nome completo</p>
+            <input class="campo" name="nome" type="text">
+
+            <p class="t-form">CPF</p>
+            <input class="campo" name="cpf" type="text">
+
+            <p class="t-form">Sexo</p>
+            <select class="selecao" name="select">
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino" selected>Feminino</option>
+                <option value="Outro" selected>Outro</option>
+            </select>
+
+            <p class="t-form">Idade</p>
+            <input class="campo" name="idade" type="text">
+
+            <p class="t-form">Altura</p>
+            <input class="campo" name="altura" type="text">
+
+            <p class="t-form">Peso</p>
+            <input class="campo" name="peso" type="text">
+
+            <br>
+            
+            <input class="btn-form" id="btn" onclick="check()" type="submit" value="Enviar">
+            <img class="foto-index" src="img/foto-index.png">
+        </form>
+    </main>
+</body>
+
+</html>

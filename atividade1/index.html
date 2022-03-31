@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Aula 03</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-header">Hipotheticus</h1>
+    </header>
+
+    <main>
+        <h1 class="titulo-main">Calcule quanto será seu salário</h1>
+        <form class="formulario-horasTrab" method="post" action="index.php">
+
+            <p class="t-form">Horas trabalhadas</p>
+            <input id="horasTrab" class="campo" name="horasTrab" type="text">
+
+            <p class="t-form">Horas extras trabalhadas</p>
+            <input id="horasExtra" class="campo" name="horasExtra" type="text">
+
+            <p class="t-form">Você utiliza vale transporte?</p>
+            <select class="selecao" name="select">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+            <br>
+            
+            <input class="btn-form" type="submit" value="Enviar">
+            <img class="relogio" src="img/relogio.png" alt="">
+        </form>
+    </main>
+</body>
+
+</html>
